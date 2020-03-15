@@ -28,4 +28,7 @@ public abstract class AppThread implements Runnable {
     // getters
     public MBox getMBox() { return mbox; }
     public String getID() { return id; }
+    public void setID(String ID){
+        this.id=ID;
+    }
 } // AppThread

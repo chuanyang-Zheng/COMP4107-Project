@@ -47,10 +47,11 @@ public class Msg {
 	Hello,			// Hello
 
     Gate,          //From Gate
-    Dispatcher,		// Terminate the running thread
-    PayMachine,		// Set a timer
-    Collector,		// Set a timer
-    MotionSensor,			// Timer clock ticks
+    Dispatcher,		// From Dispatcher
+    PayMachine,		// From PayMachine
+    Collector,		// From Collector
+    MotionSensor,			// From MotionSensor
+    Vacancy,        //From Vacancy
 
     } // Type
 } // Msg

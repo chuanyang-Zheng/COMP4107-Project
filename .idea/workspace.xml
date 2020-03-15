@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="502b447f-04ce-4876-a2f6-88357aeddfea" name="Default" comment="Build Gate And Corresponding Handler">
-      <change afterPath="$PROJECT_DIR$/src/AppKickstarter/AppKickstarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppKickstarter/misc/AppThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppKickstarter/misc/LogFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppKickstarter/misc/MBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppKickstarter/misc/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppKickstarter/timer/Timer.java" afterDir="false" />
+    <list default="true" id="502b447f-04ce-4876-a2f6-88357aeddfea" name="Default" comment="Upload Needed Package">
+      <change afterPath="$PROJECT_DIR$/src/PCS/PCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppKickstarter/misc/AppThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppKickstarter/misc/AppThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppKickstarter/misc/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppKickstarter/misc/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Handler/GateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handler/GateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Handler/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handler/Handler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582210007675</updated>
-      <workItem from="1584262715863" duration="3380000" />
+      <workItem from="1584262715863" duration="7191000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1582211971930</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584265991674</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Upload Needed Package">
+      <created>1584266136069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584266136069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,17 +154,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <MESSAGE value="Build Gate And Corresponding Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build Gate And Corresponding Handler" />
+    <MESSAGE value="Upload Needed Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload Needed Package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584262767400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584262767400" />
-    <state x="338" y="8" key="CommitChangelistDialog2" timestamp="1584265990284">
+    <state x="338" y="8" key="CommitChangelistDialog2" timestamp="1584274280228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="338" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584265990284" />
+    <state x="338" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584274280228" />
     <state x="165" y="173" key="FileChooserDialogImpl" timestamp="1584263261102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -178,10 +186,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584263877205" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1584266098894">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1584266139950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584266098894" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584266139950" />
     <state x="425" y="214" key="git4idea.merge.GitPullDialog" timestamp="1584266027751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
