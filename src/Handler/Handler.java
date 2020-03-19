@@ -10,9 +10,9 @@ public class Handler extends AppThread {
     protected  MBox neighborMBox;
     public Handler(String ID,String neighbor, AppKickstarter appKickstarter){
         super(ID,appKickstarter);
-        IDCount++;
         this.neighbor = neighbor;
         neighborMBox = appKickstarter.getThread(this.neighbor).getMBox();
+        IDCount++;
     }
     public Handler(String ID,AppKickstarter appKickstarter){
         super(ID,appKickstarter);

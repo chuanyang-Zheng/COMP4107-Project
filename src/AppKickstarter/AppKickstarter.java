@@ -75,7 +75,7 @@ public abstract class AppKickstarter {
 	logConHd.setLevel(Level.INFO);
 	logFileHd.setLevel(Level.INFO);
 	appThreads = new Hashtable<String, AppThread>();
-    } // AppKickstarter
+    } // AppKickstarter股票的最大利润
 
 
     //------------------------------------------------------------

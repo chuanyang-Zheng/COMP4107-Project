@@ -24,4 +24,12 @@ public class Gate extends Hardware {
     public boolean getEntrance_Gate_Judge() {
         return Entrance_Gate_Judge;
     }
+
+    @Override
+    public String toString() {
+        return "Gate{" +
+                "Entrance_Gate_Judge=" + Entrance_Gate_Judge +
+                ", state='" + state + '\'' +
+                '}';
+    }
 }

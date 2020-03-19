@@ -24,6 +24,8 @@ public class GateHandler extends Handler {
         for(boolean quit=false;!quit;){
             Msg receivedMsg=mbox.receive();
             String details=receivedMsg.getDetails();
+            log.info(gate.toString());
+            log.info(cardID+" Receive "+details);
             if(details.toLowerCase().equals("open")) {
                 gate.open();
                 sent="successfully open";
