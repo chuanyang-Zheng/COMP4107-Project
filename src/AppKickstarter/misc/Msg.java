@@ -46,6 +46,7 @@ public class Msg {
 	PollAck,		// Health poll acknowledgement
 	Hello,			// Hello
 
+    PCS,            //From PCS
     Gate,          //From Gate
     Dispatcher,		// From Dispatcher
     PayMachine,		// From PayMachine

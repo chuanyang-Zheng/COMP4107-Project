@@ -4,11 +4,15 @@ import AppKickstarter.AppKickstarter;
 import AppKickstarter.misc.AppThread;
 import AppKickstarter.misc.MBox;
 import AppKickstarter.misc.Msg;
+import Handler.GateHandler;
+import Handler.VacancyHandler;
 import Hardware.Gate;
+import Hardware.Vacancy;
 
 public class PCS extends AppThread {
-    protected Gate gateEntranceBox;
-    protected Gate gateExitBox;
+    protected GateHandler gateEntrancHandler;
+    protected GateHandler gateExitHandler;
+    protected VacancyHandler vacancyHandler;
 
     public PCS(String ID,AppKickstarter appKickstarter){
         super(ID,appKickstarter);
@@ -51,10 +55,11 @@ public class PCS extends AppThread {
                     break;
 
                 case MotionSensor:
-
+                    vacancyHandler.getMBox().send(new Msg(this.id,this.mbox, Msg.Type.PCS," 1 1"));//“ 1 1” is an example. It is determined by motion sensor
                     break;
 
-                case Vacancy:
+                case Vacancy://receive successfully increase or decrease
+
 
                     break;
             }

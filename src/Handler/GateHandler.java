@@ -44,6 +44,7 @@ public class GateHandler extends Handler {
             }
             else
                 log.warning(cardID+" : Receive Invalid Commands: "+details);
+            log.info("Now "+gate.toString());
         }
     }
 }
